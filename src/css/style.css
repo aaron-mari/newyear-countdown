@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&family=Righteous&display=swap');
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Righteous', sans-serif;
+    text-align: center;
+    background-image: url(/src/static/fireworks.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0%;
+}
+.timer-container {
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    padding: 5vh;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.5rem;
+    text-align: left;
+    text-shadow: 0.3rem 0.3rem black;
+    padding-left: 1vw;
+    height: 25vh;
+}
+.item-container {
+    background-color: rgb(75,75,75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+    
+}
+.timer-card {
+    background-color: black;
+    color: white;
+    font-family: 'Nova Mono', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 0.5rem;
+    
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: rgba(0,0,0,0.9);
+    padding: 3vh 0% 3vh 0%;
+    height: 100vh;
+}
+.timer-card p {
+    font-family: 'Nova Mono';
+}
+
+a {
+    color: white;
+}
+a:visited {
+    color: grey;
+}
