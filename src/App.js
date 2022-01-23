@@ -4,8 +4,8 @@ import React from "react"
 
 
 const App = () => {
-    const [curDate, setCurDate] = React.useState(new Date(Date.now()))
-    const [newYears, setNewYears] = React.useState(new Date(curDate.getFullYear()+1, 0, 1, 0, 0, 0))
+    const [curDate] = React.useState(new Date(Date.now()))
+    const [newYears] = React.useState(new Date(curDate.getFullYear()+1, 0, 1, 0, 0, 0))
     //const [newYears, setNewYears] = React.useState(new Date(Date.now()))
     const [deltaDate, setDeltaDate] = React.useState(new Date(newYears - curDate))
     
